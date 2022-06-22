@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(224, 204, 159);
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-color: antiquewhite;
+    box-shadow: 0px 3px 8px -6px #595B57;
+    border-radius:10%;
+}
+
+h2 {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.input {
+    padding-left: 65px;
+    padding-top: 10px;
+}
+button {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    margin-left: 36%;
+    margin-top: 20px;
+}
