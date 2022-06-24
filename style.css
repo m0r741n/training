@@ -35,27 +35,27 @@ button {
     font-style: italic;
 }
 
-.block {
-    width:500px;
-    max-height: fit-content;
+.flexbox {
+    display: flex;
+    width: 100%;
+}
+
+.blockleft {
+    position: relative;
+    width:40%;
+    max-height: 400px;
+    margin: 0 2% 0 8%;
     padding: 30px;
-    background-color: rgb(173, 219, 204);
+    background-color: rgb(173, 219, 204, 0.9);
     font: 1em sans-serif;
 }
 
-.block h2 {
-    font-weight: normal;
-    text-align: center;
-    overflow: hidden;
-    margin: 2px;
+.blockright {
+    width:40%;
+    max-height: 400px;
+    margin: 0 8% 0 2%;
+    padding: 30px;
+    background-color: rgb(173, 219, 204, 0.9);
+    font: 1em sans-serif;
 }
 
-.block h2::before, .block h2::after {
-    position: relative;
-    display: inline-block;
-    content: '';
-    height: 1px;
-    background: black;
-    vertical-align: middle;
-    width: 50%;
-}
