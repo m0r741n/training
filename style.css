@@ -35,27 +35,18 @@ button {
     font-style: italic;
 }
 
-.flexbox {
+.container {
     display: flex;
-    width: 100%;
+    width: 100vw;
 }
 
-.blockleft {
-    position: relative;
-    width:40%;
-    max-height: 400px;
-    margin: 0 2% 0 8%;
-    padding: 30px;
+.container > div {
+    flex-flow: row;
+    text-align: center;
+    list-style-position: inside;
+    width: 50vw;
     background-color: rgb(173, 219, 204, 0.9);
-    font: 1em sans-serif;
-}
-
-.blockright {
-    width:40%;
-    max-height: 400px;
-    margin: 0 8% 0 2%;
-    padding: 30px;
-    background-color: rgb(173, 219, 204, 0.9);
-    font: 1em sans-serif;
+    font: 1.5em sans-serif;
+    border: 1px solid black;
 }
 
